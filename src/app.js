@@ -2,13 +2,12 @@ const express = require('express');
 const exphbs = require('express-handlebars');
 const dotenv = require('dotenv');
 const path = require('path');
-const config = require('../config/config');
 
 // Cargar variables de entorno
 dotenv.config();
 
 const app = express();
-const PORT = config.server.port;
+const PORT = process.env.PORT || 3001;
 
 // Configurar Handlebars
 app.engine('handlebars', exphbs.engine());

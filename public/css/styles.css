@@ -1,51 +1,52 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 20px;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  .ad-card {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 15px;
-    margin-bottom: 20px;
-  }
-  
-  pre {
-    background-color: #f4f4f4;
-    padding: 10px;
-    border-radius: 4px;
-    overflow-x: auto;
-  }
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
 
-  .ad-card {
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-  }
-  
-  .ad-card.performing {
-    border-color: green;
-    background-color: #e6ffe6;
-  }
-  
-  .ad-card h2 {
-    margin-top: 0;
-  }
-  
-  .ad-card ul {
-    padding-left: 20px;
-  }
-  
-  .ad-card pre {
-    background-color: #f4f4f4;
-    padding: 10px;
-    border-radius: 5px;
-    overflow-x: auto;
-  }
+h1 {
+  text-align: center;
+}
+
+#search-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#search-form input,
+#search-form select,
+#search-form button {
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+
+.ad-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.ad-card h2 {
+  margin-top: 0;
+}
+
+.ad-card ul {
+  padding-left: 20px;
+}
+
+.ad-creative img,
+.ad-creative video {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+}

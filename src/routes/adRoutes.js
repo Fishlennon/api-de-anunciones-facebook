@@ -2,6 +2,6 @@ const express = require('express');
 const router = express.Router();
 const adController = require('../controllers/adController');
 
-router.get('/popular', adController.getPopularAds);
+router.get('/search', adController.searchAds);
 
 module.exports = router;
